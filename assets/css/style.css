@@ -1,0 +1,613 @@
+#name {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+header {
+    line-height: 70px;
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+
+}
+#links {
+    float: right;
+    color: #666666;
+    position: absolute;
+    right: 15px;
+
+    
+
+
+}
+footer {
+    background-color: #666666;
+    text-align: center;
+    color: white;
+    clear: both;
+    height: 75px;
+    line-height: 55px;
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 640px;
+
+    
+}
+h2 {
+    color: #4aaaa5;
+
+}
+h3 {
+    color: #4aaaa5;
+
+}
+image {
+    float: left;
+
+}
+body {
+    background-image: url("../images/concrete_seamless.png")
+}
+.mainContent1 {
+    clear: both;
+    float: left;
+    width: 650px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    position: fixed;
+    top: 103px;
+    padding: 10px;
+
+}
+.mainContent2 {
+    clear: both;
+    float: left;
+    width: 650px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    position: fixed;
+    top: 103px;
+    padding: 10px;
+
+}
+.mainContent3 {
+    clear: both;
+    float: left;
+    width: 650px;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    position: fixed;
+    top: 103px;
+    padding: 10px;
+
+}
+img {
+    float: left;
+    clear: both;
+    height: 200px;
+    width: 150px;
+}
+.sidebar {
+    clear: both;
+    float: right;
+    width: 270px;
+    height: 150px;
+    position: relative;
+    top: 25px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.pictures {
+    height: 45px;
+    width: 45px;
+    margin: 5px;
+    top: 70px;
+    
+}
+#pic1 {
+    position: absolute;
+    right: 175px;
+
+}
+#pic2 {
+    position: absolute;
+    right: 120px;
+
+}
+#pic3 {
+    position: absolute;
+    right: 65px;
+
+}
+header {
+    background-color: #ffffff;
+
+}
+#hr1 {
+    width: 75%;
+
+}
+#hr2 {
+    width: 95%;
+}
+#lorem1 {
+    position: absolute;
+    left: 25px;
+
+}
+#lorem2 {
+    position: relative;
+    left: 340px;
+    
+
+}
+#lorem3 {
+    position: relative;
+    left: 15px;
+    top: 30px;
+    
+
+}
+#lorem4 {
+    position: relative;
+    left: 340px;
+    bottom: 170px;
+
+}
+#lorem5 {
+    position: relative;
+    left: 15px;
+    bottom: 130px;
+
+}
+#loremText1 {
+    position: absolute;
+    top: 245px;
+    left: 25px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+}
+#loremText2 {
+    position: absolute;
+    top: 245px;
+    left:350px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+}
+#loremText3 {
+    position: absolute;
+    top: 475px;
+    left: 25px;
+    color: #ffffff;
+    z-index: 3;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+}
+#loremText4 {
+    position: absolute;
+    top: 475px;
+    left: 350px;
+    color: #ffffff;
+    z-index: 3;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+}
+#loremText5 {
+    position: absolute;
+    top: 720px;
+    left: 25px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    float: left;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color:olivedrab;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+} 
+@media only screen and (max-width: 980px) {
+
+    .mainContent1{
+        width: 365px;
+    }
+    .mainContent2{
+        width: 365px;
+        height: 850px;
+        overflow-y: scroll;
+    }
+    #lorem1{
+    position: absolute;
+    left: 35px;
+    height: 170px;
+    width: 130px;
+
+    }
+    #lorem2 {
+    position: absolute;
+    left: 35px;
+    top: 300px;
+    
+
+    }
+    #lorem3 {
+    position: absolute;
+    left: 35px;
+    top: 515px;
+    
+
+    }
+    #lorem4 {
+    position: absolute;
+    left: 35px;
+    top: 740px;
+
+    }
+    #lorem5 {
+    position: absolute;
+    left: 35px;
+    top: 960px;
+
+    }
+    #loremText1 {
+    position: absolute;
+    top: 245px;
+    left: 35px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+    }
+    #loremText2 {
+    position: absolute;
+    top: 465px;
+    left:35px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+    }
+    #loremText3 {
+    position: absolute;
+    top: 675px;
+    left: 35px;
+    color: #ffffff;
+    z-index: 3;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+    }
+    #loremText4 {
+    position: absolute;
+    top: 890px;
+    left: 35px;
+    color: #ffffff;
+    z-index: 3;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+    }
+    #loremText5 {
+    position: absolute;
+    top: 1100px;
+    left: 35px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+
+    }
+    footer{
+        clear: both;
+    }
+    .mainContent3{
+        width: 365px;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    .mainContent1{
+        width: 690px;
+        height: 490px;
+    
+    }
+    .mainContent2{
+        width: 690px;
+        height: 490px;
+        overflow-y: auto;
+    }
+    #lorem1 {
+        position: absolute;
+        left: 25px;
+    
+    }
+    #lorem2 {
+        position: absolute;
+        left: 340px;
+        top: 85px;
+        
+    
+    }
+    #lorem3 {
+        position: absolute;
+        left: 25px;
+        top: 300px;
+        
+    
+    }
+    #lorem4 {
+        position: absolute;
+        left: 340px;
+        top: 300px;
+    
+    }
+    #lorem5 {
+        position: absolute;
+        left: 25px;
+        top: 515px;
+    
+    }
+    #loremText1 {
+        position: absolute;
+        top: 245px;
+        left: 25px;
+        color: #ffffff;
+        background-color: #4aaaa5;
+        height: 20px;
+        width: 260px;
+        text-align: center;
+    }
+    #loremText2 {
+        position: absolute;
+        top: 245px;
+        left:340px;
+        color: #ffffff;
+        background-color: #4aaaa5;
+        height: 20px;
+        width: 260px;
+        text-align: center;
+    }
+    #loremText3 {
+        position: absolute;
+        top: 465px;
+        left: 25px;
+        color: #ffffff;
+        z-index: 3;
+        background-color: #4aaaa5;
+        height: 20px;
+        width: 260px;
+        text-align: center;
+    }
+    #loremText4 {
+        position: absolute;
+        top: 465px;
+        left: 340px;
+        color: #ffffff;
+        z-index: 3;
+        background-color: #4aaaa5;
+        height: 20px;
+        width: 260px;
+        text-align: center;
+    }
+    #loremText5 {
+        position: absolute;
+        top: 680px;
+        left: 25px;
+        color: #ffffff;
+        background-color: #4aaaa5;
+        height: 20px;
+        width: 260px;
+        text-align: center;
+    
+    }
+    .mainContent3{
+        width: 690px;
+        height: 490px;
+    
+    }
+    .sidebar{
+        position: relative;
+        top: 580px;
+        width: 690px;
+        left: 0;
+        padding: 10px;
+        float: left;
+    }
+    #pic1 {
+        position: absolute;
+        right: 385px;
+    
+    }
+    #pic2 {
+        position: absolute;
+        right: 335px;
+    
+    }
+    #pic3 {
+        position: absolute;
+        right: 285px;
+    
+    }
+}
+@media only screen and (max-width: 640px) {
+
+    .mainContent1{
+        width: 415px;
+        height: 560px;
+    }
+    .mainContent2{
+        width: 415px;
+        height: 560px;
+        overflow-y: auto;
+    }
+    #lorem1{
+    position: absolute;
+    left: 25px;
+    height: 170px;
+    width: 130px;
+
+    }
+    #lorem2 {
+    position: absolute;
+    left: 25px;
+    top: 300px;
+    
+
+    }
+    #lorem3 {
+    position: absolute;
+    left: 25px;
+    top: 515px;
+    
+
+    }
+    #lorem4 {
+    position: absolute;
+    left: 25px;
+    top: 725px;
+
+    }
+    #lorem5 {
+    position: absolute;
+    left: 25px;
+    top: 940px;
+
+    }
+    #loremText1 {
+    position: absolute;
+    top: 245px;
+    left: 25px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+    }
+    #loremText2 {
+    position: absolute;
+    top: 465px;
+    left:25px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+    }
+    #loremText3 {
+    position: absolute;
+    top: 675px;
+    left: 25px;
+    color: #ffffff;
+    z-index: 3;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+    }
+    #loremText4 {
+    position: absolute;
+    top: 900px;
+    left: 25px;
+    color: #ffffff;
+    z-index: 3;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+    }
+    #loremText5 {
+    position: absolute;
+    top: 1100px;
+    left: 25px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 20px;
+    width: 260px;
+    text-align: center;
+
+    }
+    .mainContent3{
+        width: 415px;
+    }
+    .sidebar{
+        position: relative;
+        top: 625px;
+        width: 415px;
+        left: 0;
+        padding: 10px;
+        float: left;
+    }
+    #pic1 {
+        position: absolute;
+        left: 140px;
+        
+    
+    }
+    #pic2 {
+        position: absolute;
+        left: 190px;
+    
+    }
+    #pic3 {
+        position: absolute;
+        left: 240px;
+    
+    }
+}
